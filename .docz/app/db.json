@@ -1,0 +1,35 @@
+{
+  "config": {
+    "title": "Tundra UI",
+    "description": "My awesome app using docz",
+    "themeConfig": {},
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "source": "./src",
+    "typescript": true,
+    "host": "0.0.0.0",
+    "port": 3000
+  },
+  "entries": {
+    "src/components/Button/Button.mdx": {
+      "name": "Button",
+      "menu": "UI",
+      "id": "2b773349a016959194c905ce6ad9d2d4",
+      "filepath": "src/components/Button/Button.mdx",
+      "link": null,
+      "slug": "src-components-button-button",
+      "route": "/src-components-button-button",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic Usage"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noErrorTruncation": true,
+    "sourceMap": true,
+    "pretty": false,
+    "removeComments": true,
+    "noEmit": false,
+    "outDir": "./dist",
+    "target": "es2015",
+    "module": "esnext",
+    "jsx": "preserve",
+    "allowJs": false,
+    "lib": ["dom", "es7", "scripthost", "es2015", "esnext.asynciterable"],
+    "baseUrl": "./"
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}
