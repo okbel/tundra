@@ -1,0 +1,19 @@
+.root {
+  background-color: transparent;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border: 0px solid transparent;
+}
+
+.fullWidth {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.typeDefault {
+  background-color: red;
+}

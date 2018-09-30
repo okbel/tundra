@@ -28,6 +28,21 @@
           "depth": 2,
           "slug": "basic-usage",
           "value": "Basic Usage"
+        },
+        {
+          "depth": 2,
+          "slug": "types",
+          "value": "Types"
+        },
+        {
+          "depth": 2,
+          "slug": "sizes",
+          "value": "Sizes"
+        },
+        {
+          "depth": 2,
+          "slug": "sizes-1",
+          "value": "Sizes"
         }
       ]
     }
