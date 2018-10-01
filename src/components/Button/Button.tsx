@@ -7,21 +7,25 @@ interface InnerProps {
   children: ReactNode | ReactText;
   size?: "small" | "default" | "large";
   fullWidth?: boolean;
-  type?: "default" | "filled" | "outlined";
+  type?: "filled" | "outlined";
 }
 
 class Button extends React.Component<InnerProps> {
   public static defaultProps: Partial<InnerProps> = {
     fullWidth: false,
     size: "default",
-    type: "default"
+    type: "filled"
   };
 
   render() {
-    const { children, className, fullWidth, type } = this.props;
+    const { children, className, fullWidth, type, size } = this.props;
 
     const rootClassName = cn(styles.root, className, {
-      [styles.typeDefault]: type,
+      [styles.typeFilled]: type === "filled",
+      [styles.typeOutlined]: type === "outlined",
+      [styles.sizeSmall]: size === "small",
+      [styles.sizeDefault]: size === "default",
+      [styles.sizeLarge]: size === "large",
       [styles.fullWidth]: fullWidth
     });
 

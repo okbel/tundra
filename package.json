@@ -7,19 +7,26 @@
     "build": "docz build"
   },
   "devDependencies": {
+    "@types/react": "^16.4.14",
     "css-loader": "^1.0.0",
     "docz": "latest",
+    "flat": "^4.1.0",
     "postcss-loader": "^3.0.0",
     "react": "^16.5.2",
+    "serve": "latest",
     "style-loader": "^0.23.0",
+    "ts-node": "^7.0.1",
     "tsconfig-paths-webpack-plugin": "^3.2.0",
     "typescript": "^3.1.1",
-    "webpack": "^4.20.2",
-    "serve": "latest",
-    "@types/react": "^16.4.14"
+    "webpack": "^4.20.2"
   },
   "dependencies": {
     "@types/classnames": "^2.2.6",
-    "classnames": "^2.2.6"
+    "@types/node": "^10.11.3",
+    "autoprefixer": "^9.1.5",
+    "classnames": "^2.2.6",
+    "lodash": "^4.17.11",
+    "postcss-css-variables": "^0.10.0",
+    "postcss-import": "^12.0.0"
   }
 }

@@ -14,6 +14,23 @@
     "port": 3000
   },
   "entries": {
+    "src/index.mdx": {
+      "name": "Getting Started",
+      "route": "/",
+      "id": "6576455a124f9aaefd860597f03a8fe4",
+      "filepath": "src/index.mdx",
+      "link": null,
+      "slug": "src-index",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "tundra-ui",
+          "value": "Tundra UI"
+        }
+      ]
+    },
     "src/components/Button/Button.mdx": {
       "name": "Button",
       "menu": "UI",
