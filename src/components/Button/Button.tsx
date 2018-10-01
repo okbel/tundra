@@ -1,5 +1,5 @@
 import React, { ReactText, ReactNode } from "react";
-import cn from "classNames";
+import cn from "classnames";
 import * as styles from "./Button.css";
 
 interface InnerProps {
