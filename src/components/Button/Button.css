@@ -4,9 +4,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  box-sizing: border-box;
-  border: 0px solid transparent;
-  display: inline-block;
+  border: 1px solid transparent;
   font-weight: 500;
   text-align: center;
   vertical-align: middle;
@@ -20,27 +18,50 @@
   user-select: none;
   transition: background-color 0.2s ease;
   letter-spacing: 1px;
-  border: 0;
-  background-color: transparent;
   color: #fff;
   box-sizing: border-box;
 }
 
-.fullWidth {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
+.typeFilled.modePrimary {
+  background-color: var(--palette-primary-main);
 }
 
-.typeFilled {
-  border: solid 2px var(--palette-primary-main);
-  background-color: var(--palette-primary-main);
+.typeFilled.modeSecondary {
+  background-color: var(--palette-secondary-main);
+}
+
+.typeFilled.modeError {
+  background-color: var(--palette-error-main);
+}
+
+.typeFilled.modeSuccess {
+  background-color: var(--palette-success-main);
 }
 
 .typeOutlined {
   background-color: transparent;
-  border: solid 2px var(--palette-primary-main);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.typeOutlined.modePrimary {
+  border-color: var(--palette-primary-main);
   color: var(--palette-primary-main);
+}
+
+.typeOutlined.modeSecondary {
+  border-color: var(--palette-secondary-main);
+  color: var(--palette-secondary-main);
+}
+
+.typeOutlined.modeError {
+  border-color: var(--palette-error-main);
+  color: var(--palette-error-main);
+}
+
+.typeOutlined.modeSuccess {
+  border-color: var(--palette-success-main);
+  color: var(--palette-success-main);
 }
 
 .sizeSmall {
@@ -53,4 +74,10 @@
 
 .sizeLarge {
   padding: 8px 15px;
+}
+
+.fullWidth {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
 }

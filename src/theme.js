@@ -3,7 +3,7 @@ const config = {
     primary: {
       darkest: "#202375",
       dark: "#3e348c",
-      main: "#6b5aa9",
+      main: "#1890ff",
       light: "#8476b8",
       lighter: "#a79dcc",
       lightest: "#cac4e0"

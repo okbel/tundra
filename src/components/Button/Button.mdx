@@ -3,18 +3,33 @@ name: Button
 menu: UI
 ---
 
-import { Playground } from 'docz'
+import { Playground, PropsTable } from 'docz'
 import Button from './Button'
+
+# Button
+
+<PropsTable of={Button} />
 
 ## Basic Usage
 <Playground>
     <Button>Push Me</Button>
+    <Button type="outlined">Push Me</Button>
 </Playground>
 
-## Types
+## Types Filled
 <Playground>
-    <Button type="filled">Push Me</Button>
-    <Button type="outlined">Push Me</Button>
+    <Button mode="primary">Push me</Button>
+    <Button type="filled" mode="secondary">Push me</Button>
+    <Button type="filled" mode="error">Push me</Button>
+    <Button type="filled" mode="success">Push me</Button>
+</Playground>
+
+## Types Outlined
+<Playground>
+    <Button type="outlined" mode="primary">Push me</Button>
+    <Button type="outlined" mode="secondary">Push me</Button>
+    <Button type="outlined" mode="error">Push me</Button>
+    <Button type="outlined" mode="success">Push me</Button>
 </Playground>
 
 ## Sizes

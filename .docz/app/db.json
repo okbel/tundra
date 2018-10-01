@@ -42,14 +42,24 @@
       "order": 0,
       "headings": [
         {
+          "depth": 1,
+          "slug": "button",
+          "value": "Button"
+        },
+        {
           "depth": 2,
           "slug": "basic-usage",
           "value": "Basic Usage"
         },
         {
           "depth": 2,
-          "slug": "types",
-          "value": "Types"
+          "slug": "types-filled",
+          "value": "Types Filled"
+        },
+        {
+          "depth": 2,
+          "slug": "types-outlined",
+          "value": "Types Outlined"
         },
         {
           "depth": 2,
@@ -60,6 +70,23 @@
           "depth": 2,
           "slug": "sizes-1",
           "value": "Sizes"
+        }
+      ]
+    },
+    "src/components/Text/Text.mdx": {
+      "name": "Button",
+      "menu": "UI",
+      "id": "466fa8551cc28f43d1f38ce375d9c589",
+      "filepath": "src/components/Text/Text.mdx",
+      "link": null,
+      "slug": "src-components-text-text",
+      "route": "/src-components-text-text",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 2,
+          "slug": "basic-usage",
+          "value": "Basic Usage"
         }
       ]
     }
